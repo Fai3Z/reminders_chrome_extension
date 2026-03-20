@@ -1,4 +1,5 @@
-const DEFAULT_API_BASE = "http://127.0.0.1:8765";
+// const DEFAULT_API_BASE = "http://127.0.0.1:8765";
+const DEFAULT_API_BASE = "https://reminders-chrome-extension.onrender.com";
 
 const apiBaseEl = document.getElementById("apiBase");
 const statusEl = document.getElementById("status");

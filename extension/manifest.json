@@ -5,8 +5,8 @@
   "description": "Shows reminders from a local FastAPI backend at scheduled times.",
   "permissions": ["alarms", "storage"],
   "host_permissions": [
-    "http://127.0.0.1/*",
-    "http://localhost/*"
+  "http://127.0.0.1/*",
+  "https://reminders-chrome-extension.onrender.com/*"
   ],
   "background": {
     "service_worker": "background.js"
