@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reminders</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Local reminders</h1>
+      <label class="stack">
+        <span>Backend URL</span>
+        <input type="url" id="apiBase" placeholder="http://127.0.0.1:8765" autocomplete="off" />
+      </label>
+      <p class="hint">
+        Point this at wherever <code>uvicorn</code> is listening (see guide). On a remote free host, use
+        <code>https://your-app.example/api</code> with HTTPS.
+      </p>
+      <div class="row">
+        <button type="button" id="save">Save</button>
+        <button type="button" id="test" class="secondary">Test connection</button>
+      </div>
+      <p id="status" role="status"></p>
+      <button type="button" id="pollNow" class="linkish">Poll for due reminders now</button>
+    </main>
+    <script src="popup.js" type="module"></script>
+  </body>
+</html>

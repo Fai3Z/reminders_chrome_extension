@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Local TXT Reminders",
+  "version": "1.0.0",
+  "description": "Shows reminders from a local FastAPI backend at scheduled times.",
+  "permissions": ["alarms", "storage"],
+  "host_permissions": [
+    "http://127.0.0.1/*",
+    "http://localhost/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Reminder backend & status"
+  },
+  "icons": {
+    "128": "icons/icon128.png"
+  }
+}

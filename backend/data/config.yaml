@@ -1,0 +1,15 @@
+# Reminder schedule: one entry per .txt file in data/reminders/
+# times: list of HH:MM in 24h notation, server local timezone (same machine as backend).
+reminders:
+  - id: csv sheet unis
+    title: of the unis we have to make connections as the scholars of today will be job seekers of tomorrow in that locality or a better locality hopefully
+    file: morning.txt
+    times:
+      - "22:37"
+      - "21:15"
+
+  - id: evening
+    title: Evening note
+    file: evening.txt
+    times:
+      - "18:30"
