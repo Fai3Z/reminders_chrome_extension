@@ -5,7 +5,7 @@ reminders:
     title: of the unis we have to make connections as the scholars of today will be job seekers of tomorrow in that locality or a better locality hopefully
     file: morning.txt
     times:
-      - "22:37"
+      - "00:10"
       - "21:15"
 
   - id: evening
