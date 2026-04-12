@@ -6,10 +6,39 @@ reminders:
     file: morning.txt
     times:
       - "00:10"
-      - "21:15"
+      - "15:25"
 
   - id: evening
     title: Evening note
     file: evening.txt
     times:
       - "18:30"
+
+  - id: recommendation
+    title: Recommendation letters
+    file: rl.txt
+    times:
+      - "17:45"
+
+  - id: ielts
+    title: ielts prep
+    file: ielts.txt
+    times:
+      - "17:50"
+      - "15:00"
+
+  - id: math
+    title: math intuitive prep
+    file: math.txt
+    times:
+      - "18:50"
+      - "19:00"
+
+  - id: german
+    title: german language semantics
+    file: german.txt
+    times:
+      - "16:50"
+      - "18:40"
+
+

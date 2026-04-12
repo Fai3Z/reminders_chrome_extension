@@ -167,7 +167,7 @@ def reminder_content(reminder_id: str) -> dict[str, str]:
 def main() -> None:
     import uvicorn
 
-    host = os.environ.get("REMINDER_BIND_HOST", "127.0.0.1")
+    host = os.environ.get("REMINDER_BIND_HOST", "https://reminders-chrome-extension.onrender.com")
     port = int(os.environ.get("REMINDER_BIND_PORT", "8765"))
     uvicorn.run("main:app", host=host, port=port, reload=True)
 
